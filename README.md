@@ -23,13 +23,35 @@ Este repositorio contiene el desarrollo de las prácticas de Teoría de Control,
 
 ---
 
-## 🖼 Diseño PCB
+## 📌 Diseño del PCB para el sistema de control del péndulo invertido
 
-### 📌 PCB schematics
-![imagen_2024-03-20_131127213](https://github.com/IkerFil/Teoria_De_Control/assets/82641121/1e610847-991d-4ee5-8fc6-26bed47ecda8)
+A continuación se muestran las tres vistas principales del circuito impreso desarrollado para controlar el sistema:
 
-### 📌 PCB footprint
-![pcb_provisional](https://github.com/IkerFil/Teoria_De_Control/assets/82641121/261078ec-f9dc-4b4b-9d7b-f3200a636677)
+---
 
-### 📌 PCB 3D
-![pcb_provisional_3D](https://github.com/IkerFil/Teoria_De_Control/assets/82641121/05128f6e-859e-41d9-b537-355987deeea8)
+### 🖼️ 1. Vista enrutada del PCB
+
+![pcb_enrutado](PCB_pendulo_invertido/PCB_enrutada.png)
+
+- Vista superior del diseño final del PCB enrutado.
+- Incluye todas las pistas y pads para los componentes: ESP32, regulador, módulo MPU6050 y driver TB6612FNG.
+- Las pistas de potencia (+6V) se han reforzado con trazado más ancho.
+
+---
+
+### 🖼️ 2. Esquemático eléctrico (KiCad)
+
+![esquematico](PCB_pendulo_invertido/PCB_esquema.png)
+
+- Representación del circuito completo.
+- Conexiones entre los componentes principales, con referencia a pines de entrada/salida y alimentación.
+- Refleja fielmente el diseño de la PCB.
+
+---
+
+### 🖼️ 3. Vista 3D de la PCB
+
+![vista_3D](PCB_pendulo_invertido/PCB_3D.png)
+
+- Representación tridimensional del PCB ensamblado.
+- Permite verificar el espacio y la ubicación de los componentes antes de fabricación.
